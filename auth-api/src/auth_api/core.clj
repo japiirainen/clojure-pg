@@ -12,7 +12,6 @@
                                                      format-response-middleware
                                                      format-negotiate-middleware]]))
 
-
 (defonce server
   (atom nil))
 
@@ -46,7 +45,6 @@
   (reset! server (run-server app {:port 3333})))
 
 (comment
+  (+ 1 1)
+  (stop-server)
   (-main))
-
-
-
