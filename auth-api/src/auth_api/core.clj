@@ -46,7 +46,5 @@
   (reset! server (run-server app {:port 3333})))
 
 (comment
+  (stop-server)
   (-main))
-
-
-
